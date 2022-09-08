@@ -1,0 +1,106 @@
+:root {
+  --title: "IBM Plex Mono", monospace;
+  --nunito: "Nunito", sans-serif;
+  --light-cornflower-blue: #8ECAE6;
+  --blue-green: #219EBC;
+  --prussian-blue: #023047;
+  --selective-yellow: #FFB703;
+  --tangerine: #FB8500;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--title);
+  color: aliceblue;
+  font-size: 30px;
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+body {
+  font-family: var(--nunito);
+  background-color: var(--prussian-blue);
+  background-image: url(../images/radiant-gradient.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.login {
+  padding: 15px;
+  width: 400px;
+  min-height: 400px;
+  margin: 2% auto 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.login .heading {
+  text-align: center;
+  margin-top: 1%;
+}
+.login .heading h2 {
+  font-size: 3em;
+  font-weight: 300;
+  color: var(--light-cornflower-blue);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.login form .input-group {
+  border-bottom: 1px solid var(--tangerine);
+  border-top: 1px solid var(--tangerine);
+}
+.login form .input-group:last-of-type {
+  border-top: none;
+}
+.login form .input-group span {
+  background: transparent;
+  min-width: 53px;
+  border: none;
+}
+.login form .input-group span i {
+  font-size: 1.5em;
+  color: var(--prussian-blue);
+}
+.login form input.form-control {
+  display: block;
+  width: auto;
+  height: auto;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  background: none;
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 1.6em;
+  width: 100%;
+  background: transparent;
+  color: var(--tangerine);
+}
+.login form input.form-control:focus {
+  border: none;
+}
+.login form button {
+  margin-top: 20px;
+  background-color: var(--blue-green);
+  border: none;
+  font-size: 1.6em;
+  font-weight: 300;
+  padding: 5px 30px;
+  border-radius: 3px;
+  color: #b7e7f2;
+  border-bottom: 4px solid #197a91;
+}/*# sourceMappingURL=styles.css.map */
