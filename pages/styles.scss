@@ -148,12 +148,17 @@ body {
     transform: translateY(-3px);
 }
 
+
 @media only screen and (max-width : 1500px) {
+    .login {
+        width: fit-content;
+        font-size: 2.5em;
+    }
 }
 
 @media only screen and (max-width : 1200px) {
     .login {
-        width: 600px;
+        width: 800px;
         font-size: 2em;
     } 
 }
