@@ -10,7 +10,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%;
+  font-size: 80.5%;
 }
 
 *, *::before, *::after {
@@ -21,7 +21,7 @@ html {
 
 h1 {
   font-family: var(--title);
-  color: aliceblue;
+  color: var(--light-cornflower-blue);
   font-size: 30px;
   padding-left: 2rem;
   padding-top: 2rem;
