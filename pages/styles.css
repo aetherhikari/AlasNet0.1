@@ -31,7 +31,8 @@ h1 {
 body {
   font-family: var(--nunito);
   background-color: var(--prussian-blue);
-  background-image: url(../images/radiant-gradient.svg);
+  background-image: url(../images/parabolic-rectangle.svg);
+  background-position: left -0vh top -15vh;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
