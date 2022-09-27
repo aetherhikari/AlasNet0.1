@@ -1,0 +1,40 @@
+:root {
+  --title: "IBM Plex Mono", monospace;
+  --nunito: "Nunito", sans-serif;
+  --light-cornflower-blue: #8ECAE6;
+  --blue-green: #219EBC;
+  --prussian-blue: #023047;
+  --selective-yellow: #FFB703;
+  --tangerine: #FB8500;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 80.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: var(--title);
+  color: var(--light-cornflower-blue);
+  font-size: 16px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  font-weight: 100;
+}
+
+body {
+  font-family: var(--nunito);
+  background-color: var(--prussian-blue);
+  background-image: url(../images/radiant-gradient.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}/*# sourceMappingURL=styles-home.css.map */
